@@ -1,0 +1,155 @@
+@media(min-width: 320px) {
+    #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 75px;
+        padding: 5px 0;
+        text-align: center;
+        background-color: #cecece;
+    }
+    #header-img {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 300px;
+    }
+    #form {
+        display: flex;
+        flex-direction: column;
+    }
+    #email {
+        width: 80%;
+        margin: 0 auto 10px auto;
+    }
+    #submit {
+        width: 60%;
+        margin: 0 auto;
+        border: none;
+        height: 30px;
+        background-color: #ffd82c;
+        font-size: 1.125rem;
+        font-weight: 600;
+        letter-spacing: 3px;
+    }
+    #form h3 {
+        font-size: 1.5rem;
+    }
+    #video {
+        margin: 75px 0;
+    }
+    .nav-link {
+        display: block;
+        font-size: 1.25rem;
+        color: black;
+        text-decoration: none;
+    }
+    .sub-features h4 {
+        font-size: 1.5rem;
+        margin: 75px 0 10px 0;
+    }
+    .sub-features p {
+        font-size: 1.25rem;
+        margin: 0;
+    }
+    .sub-pricing {
+        border: 1px solid #000;
+        border-radius: 1%;
+        margin: 15px 0;
+        padding-bottom: 15px;
+    }
+    .sub-pricing-title {
+        background-color: #b3b3b3;
+        height: 50px;
+        margin: 0;
+        font-size: 1.5rem;
+        line-height: 2;
+    }
+    .price {
+        font-size: 1.5rem;
+        margin: 15px 0 0 0;
+    }
+    .price-select {
+        border: none;
+        width: 100px;
+        height: 35px;
+        background-color: #ffd82c;
+        font-size: 1.25rem;
+    }
+    .footer-link {
+        color: #000;
+        text-decoration: none;
+    }
+    main {
+        margin: 125px 0 50px 0;
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+    }
+    body {
+        background-color: #cecece;
+    }
+}
+
+@media(min-width: 640px) {
+    #header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+        right: 0;
+    }
+    #header-img {
+        margin: 0;
+    }
+    #email {
+        width: 30%;
+    }
+    #submit {
+        width: 20%;
+    }
+    #nav-bar {
+        display: inline-block;
+        margin: 0;
+    }
+    #pricing {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #video {
+        widows: 90%;
+        height: 360px;
+    }
+    .sub-pricing {
+        width: 30%;
+    }
+    .sub-pricing-title {
+        font-size: 1.125rem;
+        line-height: 2.5;
+    }
+    .nav-link {
+        display: inline-block;
+    }
+    body {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width: 1280px) {
+    #header {
+        width: 60%;
+    }
+    #video {
+        height: 640px;
+    }
+    .sub-features h4 {
+        text-align: left;
+    }
+    body {
+        width: 60%;
+    }
+}
